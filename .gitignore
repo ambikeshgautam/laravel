@@ -1,0 +1,39 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/public/hot
+/public/mix-manifest.json
+/public/assets
+/storage/*.key
+.env
+.phpunit.result.cache
+.phpunit.cache
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Composer dependencies
+composer.lock
+
+# NPM/Yarn dependencies
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Laravel Mix
+npm-debug.log
+yarn-error.log
+
+# Logs and runtime files
+storage/logs/*.log
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*.php
+storage/app/public/*
+bootstrap/cache/*
