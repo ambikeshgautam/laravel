@@ -5,9 +5,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-// Route::get('/post', function(){
-//     return view('post');
-// });
+Route::get('/post', function(){
+    return view('post');
+});
 
 Route::get('/post/firstpost', function () {
     return view('firstpost');
